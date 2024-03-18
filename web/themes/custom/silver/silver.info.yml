@@ -1,0 +1,29 @@
+name: silver
+type: theme
+"base theme": stable9
+starterkit: true
+version: VERSION
+libraries:
+  - silver/base
+
+core_version_requirement: ^10
+
+regions:
+  logo: Logo
+  top_image: Top Image
+  nav_bar: Navbar
+  top_news_slider: Top News Slider
+  mainslider: Main Slider
+  content: Content
+  categories: Categories
+  featured: Featured
+  business: Business
+  technology: Technology
+  entertainment: Entertainment
+  sports: Sports
+  popular: Popular
+  tranding: Tranding
+  footer_one: Footer One
+  footer_two: Footer Two
+  footer_three: Footer Three
+  footer_four: Foter Four
