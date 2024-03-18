@@ -1,0 +1,20 @@
+uuid: 2bbfa446-c993-4e9d-800b-39746c83048a
+langcode: en
+status: false
+dependencies:
+  theme:
+    - silver
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: silver_page_title
+theme: silver
+region: logo
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: d1cf6947-2338-4b1a-941f-fd75df308d1f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - silver
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: silver_messages
+theme: silver
+region: logo
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

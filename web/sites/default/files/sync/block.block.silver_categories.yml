@@ -1,0 +1,29 @@
+uuid: 0b03b474-c61b-4d8c-bda3-66874033f634
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.categories
+  module:
+    - system
+  theme:
+    - silver
+id: silver_categories
+theme: silver
+region: nav_bar
+weight: -8
+provider: null
+plugin: 'system_menu_block:categories'
+settings:
+  id: 'system_menu_block:categories'
+  label: Categories
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /categories

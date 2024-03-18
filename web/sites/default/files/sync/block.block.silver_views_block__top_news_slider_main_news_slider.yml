@@ -1,0 +1,29 @@
+uuid: bcb1bc81-8dfc-4aae-a016-ec4fb111c7c3
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_news_slider
+  module:
+    - system
+    - views
+  theme:
+    - silver
+id: silver_views_block__top_news_slider_main_news_slider
+theme: silver
+region: mainslider
+weight: 0
+provider: null
+plugin: 'views_block:top_news_slider-main_news_slider'
+settings:
+  id: 'views_block:top_news_slider-main_news_slider'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

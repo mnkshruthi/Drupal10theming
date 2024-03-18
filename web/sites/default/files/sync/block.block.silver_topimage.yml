@@ -1,0 +1,30 @@
+uuid: 50228793-55ef-485a-a83e-1725723b6613
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo:8d549250-8ce5-433f-b9b0-4d004a2d1371'
+  module:
+    - block_content
+    - system
+  theme:
+    - silver
+id: silver_topimage
+theme: silver
+region: top_image
+weight: 0
+provider: null
+plugin: 'block_content:8d549250-8ce5-433f-b9b0-4d004a2d1371'
+settings:
+  id: 'block_content:8d549250-8ce5-433f-b9b0-4d004a2d1371'
+  label: 'Top Image'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

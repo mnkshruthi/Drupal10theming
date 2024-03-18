@@ -1,0 +1,22 @@
+uuid: 036c3bef-4541-46c4-9f59-379e6921a23d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.newsers
+    - field.field.block_content.newsers.body
+  module:
+    - text
+id: block_content.newsers.default
+targetEntityType: block_content
+bundle: newsers
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

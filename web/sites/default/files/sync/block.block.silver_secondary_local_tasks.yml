@@ -1,0 +1,22 @@
+uuid: fdef36bd-7c84-4642-b7b4-ba825534b3e9
+langcode: en
+status: false
+dependencies:
+  theme:
+    - silver
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: silver_secondary_local_tasks
+theme: silver
+region: logo
+weight: -2
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

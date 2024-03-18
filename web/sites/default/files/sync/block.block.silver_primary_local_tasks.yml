@@ -1,0 +1,22 @@
+uuid: 5c1b1748-8d7c-4f59-aa90-741de8d224d1
+langcode: en
+status: false
+dependencies:
+  theme:
+    - silver
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: silver_primary_local_tasks
+theme: silver
+region: logo
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

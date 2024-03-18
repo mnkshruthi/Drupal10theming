@@ -1,0 +1,22 @@
+uuid: f5eceba7-4f4d-4791-8bed-eba2179cdcd5
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - silver
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: silver_content
+theme: silver
+region: logo
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

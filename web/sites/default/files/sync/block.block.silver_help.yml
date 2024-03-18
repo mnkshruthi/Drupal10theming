@@ -1,0 +1,22 @@
+uuid: 4bda0c35-9752-4af7-a18f-b60147ec01ed
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - silver
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: silver_help
+theme: silver
+region: logo
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

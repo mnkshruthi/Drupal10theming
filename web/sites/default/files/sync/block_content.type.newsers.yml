@@ -1,0 +1,8 @@
+uuid: 1a29afdf-9488-4c58-b342-404a1b0ae341
+langcode: en
+status: true
+dependencies: {  }
+id: newsers
+label: Newsers
+revision: 0
+description: ''

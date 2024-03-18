@@ -1,0 +1,14 @@
+uuid: 1a797b6b-8064-4edf-9fda-82406a71799e
+langcode: en
+status: true
+dependencies: {  }
+name: feature_255x300
+label: 'Feature (255x300)'
+effects:
+  bb2d7e4e-4b24-4c65-962b-fe14c79382e3:
+    uuid: bb2d7e4e-4b24-4c65-962b-fe14c79382e3
+    id: image_resize
+    weight: 1
+    data:
+      width: 255
+      height: 300

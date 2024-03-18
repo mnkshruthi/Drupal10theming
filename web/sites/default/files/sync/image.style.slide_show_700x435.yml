@@ -1,0 +1,14 @@
+uuid: a60a3059-9eaf-4774-a27d-b2570272600a
+langcode: en
+status: true
+dependencies: {  }
+name: slide_show_700x435
+label: 'Slide Show (700x435)'
+effects:
+  4ef4c6ba-827e-4db9-97b3-83465f08d448:
+    uuid: 4ef4c6ba-827e-4db9-97b3-83465f08d448
+    id: image_resize
+    weight: 1
+    data:
+      width: 700
+      height: 435

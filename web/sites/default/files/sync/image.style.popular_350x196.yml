@@ -1,0 +1,14 @@
+uuid: 14087b4f-4406-418e-b66d-417efb0e3c10
+langcode: en
+status: true
+dependencies: {  }
+name: popular_350x196
+label: Popular(350x196)
+effects:
+  f72cc263-cc2c-4c3d-9b8c-813ef49b6894:
+    uuid: f72cc263-cc2c-4c3d-9b8c-813ef49b6894
+    id: image_resize
+    weight: 1
+    data:
+      width: 350
+      height: 196

@@ -1,0 +1,14 @@
+uuid: 03368abc-fddf-4d90-a9d9-ca7377a78cf1
+langcode: en
+status: true
+dependencies: {  }
+name: categories_500x80
+label: Categories(500x80)
+effects:
+  10fdb7b1-3ab0-4dae-9086-0155deb74892:
+    uuid: 10fdb7b1-3ab0-4dae-9086-0155deb74892
+    id: image_resize
+    weight: 1
+    data:
+      width: 500
+      height: 80

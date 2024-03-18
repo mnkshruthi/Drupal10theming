@@ -1,0 +1,14 @@
+uuid: 7ce5086f-fffb-498c-b39b-70b73ae91c22
+langcode: en
+status: true
+dependencies: {  }
+name: popular_255x143
+label: Business(255x143)
+effects:
+  d2c9ac8a-017c-4e1d-a445-6b7c692f0fb4:
+    uuid: d2c9ac8a-017c-4e1d-a445-6b7c692f0fb4
+    id: image_resize
+    weight: 1
+    data:
+      width: 255
+      height: 143

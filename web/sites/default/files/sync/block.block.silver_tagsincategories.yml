@@ -1,0 +1,33 @@
+uuid: ee2c6e15-4291-4319-b510-aeb5cd95efee
+langcode: en
+status: false
+dependencies:
+  module:
+    - tagclouds
+    - taxonomy
+  theme:
+    - silver
+id: silver_tagsincategories
+theme: silver
+region: logo
+weight: -5
+provider: null
+plugin: 'tagclouds_block:categories'
+settings:
+  id: 'tagclouds_block:categories'
+  label: 'Tags in Categories'
+  label_display: visible
+  provider: tagclouds
+  cache:
+    max_age: 0
+    contexts: {  }
+  tags: '0'
+  vocabulary: tags
+visibility:
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      categories: categories

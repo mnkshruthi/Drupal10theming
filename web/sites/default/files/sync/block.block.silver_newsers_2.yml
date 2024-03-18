@@ -1,0 +1,30 @@
+uuid: eb4200f3-4e39-41ae-882d-3372d52e8b16
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:newsers:866586f1-e2e7-4a9f-9267-fac81a7ea02e'
+  module:
+    - block_content
+    - system
+  theme:
+    - silver
+id: silver_newsers_2
+theme: silver
+region: nav_bar
+weight: -9
+provider: null
+plugin: 'block_content:866586f1-e2e7-4a9f-9267-fac81a7ea02e'
+settings:
+  id: 'block_content:866586f1-e2e7-4a9f-9267-fac81a7ea02e'
+  label: Newsers
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /categories

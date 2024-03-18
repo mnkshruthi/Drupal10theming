@@ -1,0 +1,30 @@
+uuid: b660f4d9-d63f-46cb-aca6-699fe9b3cdd7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:logo:02e6bc17-1528-4103-b28c-3469eff918d5'
+  module:
+    - block_content
+    - system
+  theme:
+    - silver
+id: silver_logo
+theme: silver
+region: logo
+weight: 0
+provider: null
+plugin: 'block_content:02e6bc17-1528-4103-b28c-3469eff918d5'
+settings:
+  id: 'block_content:02e6bc17-1528-4103-b28c-3469eff918d5'
+  label: Logo
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
