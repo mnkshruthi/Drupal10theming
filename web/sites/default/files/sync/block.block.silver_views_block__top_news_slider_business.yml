@@ -1,0 +1,29 @@
+uuid: 91023906-28ff-4b03-8965-952944bb818a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.top_news_slider
+  module:
+    - system
+    - views
+  theme:
+    - silver
+id: silver_views_block__top_news_slider_business
+theme: silver
+region: business
+weight: 0
+provider: null
+plugin: 'views_block:top_news_slider-business'
+settings:
+  id: 'views_block:top_news_slider-business'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: '2'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
