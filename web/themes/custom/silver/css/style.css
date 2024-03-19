@@ -10084,3 +10084,12 @@ h6,
 .main-slider > a:last-child {
   font-size: 26px;
 }
+.fa {
+  background-color: #c61017;
+  padding: 4px;
+}
+.featured-title > a:last-child {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
