@@ -6,6 +6,7 @@ dependencies:
     - field.storage.node.body
     - field.storage.node.field_blog_image
     - field.storage.node.field_category
+    - image.style.categories_500x80
     - image.style.feature_255x300
     - image.style.popular_255x143
     - image.style.slide_show_700x435
