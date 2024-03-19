@@ -1,0 +1,29 @@
+uuid: 71106486-a353-4a75-a6f9-49f0c6609f8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.categories
+  module:
+    - system
+    - views
+  theme:
+    - silver
+id: silver_views_block__categories_categories
+theme: silver
+region: categories
+weight: 0
+provider: null
+plugin: 'views_block:categories-categories'
+settings:
+  id: 'views_block:categories-categories'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
