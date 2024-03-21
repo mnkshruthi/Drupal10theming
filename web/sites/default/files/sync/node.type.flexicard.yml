@@ -1,0 +1,17 @@
+uuid: 5fc1f9d4-4aec-4417-9cc9-164bad970c36
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Flexicard
+type: flexicard
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
