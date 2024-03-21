@@ -1,0 +1,32 @@
+uuid: 6ff57319-91f2-4e9d-95f4-2c87cfc76511
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.flexicard.body
+    - field.field.node.flexicard.field_flexi_image
+    - node.type.flexicard
+  module:
+    - text
+    - user
+id: node.flexicard.teaser
+targetEntityType: node
+bundle: flexicard
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_flexi_image: true

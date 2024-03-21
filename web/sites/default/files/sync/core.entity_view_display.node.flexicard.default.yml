@@ -1,0 +1,41 @@
+uuid: cb95ccc4-2a07-44c8-8811-8063aebbf2a4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.flexicard.body
+    - field.field.node.flexicard.field_flexi_image
+    - node.type.flexicard
+  module:
+    - image
+    - text
+    - user
+id: node.flexicard.default
+targetEntityType: node
+bundle: flexicard
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_flexi_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
