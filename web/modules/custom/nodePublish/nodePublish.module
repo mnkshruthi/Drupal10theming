@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\nodePublish\Event\NodePublishedEvent;
+use Drupal\node\NodeInterface;
+
+/**
+ * Implements hook_ENTITY_TYPE_update() for nodes.
+ */
+function nodePublish_node_update(NodeInterface $node) {
+  // Assuming you want to dispatch the event when a node is published.
+  if ($node->isPublished() && !$node->original->isPublished()) {
+    $event = new NodePublishedEvent($node);
+    // Dispatch the event with the event object as the first argument.
+    // The event name is now optional and can be omitted if your event extends the Symfony Event class.
+    \Drupal::service('event_dispatcher')->dispatch($event, NodePublishedEvent::EVENT_NAME);
+  }
+}

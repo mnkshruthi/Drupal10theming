@@ -1,0 +1,5 @@
+name: Node Publish
+type: module
+description: This is a custom module
+core_version_requirement: ^10
+package: Custom
