@@ -21,6 +21,7 @@
         "drupal/core-project-message": "^10.2",
         "drupal/core-recommended": "^10.2",
         "drupal/devel": "^5.1",
+        "drupal/restui": "^1.21",
         "drupal/tagclouds": "^2.0",
         "drush/drush": "^12.4"
     },

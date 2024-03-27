@@ -1,0 +1,5 @@
+services:
+  nodePublish.node_published_subscriber:
+    class: Drupal\nodePublish\EventSubscriber\NodePublishedSubscriber
+    tags:
+      - { name: "event_subscriber" }
