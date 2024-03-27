@@ -5,6 +5,8 @@ use Drupal\node\NodeInterface;
 
 /**
  * Implements hook_ENTITY_TYPE_update() for nodes.
+ *
+ * 
  */
 function nodePublish_node_update(NodeInterface $node) {
   // Assuming you want to dispatch the event when a node is published.
